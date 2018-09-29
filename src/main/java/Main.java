@@ -26,6 +26,14 @@ public class Main {
     }
 
     public static void main(String[] args) {
+        // 1) Создать временную папку
+        // 2) Добавить remote origin в этой папке
+        // 3) Создать временный файл
+        // 4) Залить diff одной ветки относительно master
+        // 5) Закоммитить этот diff в репо
+
+        
+
         System.out.println(execAsList("docker", "--help"));;
     }
 }
