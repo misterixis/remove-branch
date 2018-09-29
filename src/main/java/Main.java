@@ -9,8 +9,7 @@ public class Main {
         List<String> result = new ArrayList<>();
 
         try {
-            ProcessBuilder pb = new
-                    ProcessBuilder(command);
+            ProcessBuilder pb = new ProcessBuilder(command);
             final Process p = pb.start();
             BufferedReader br = new BufferedReader(
                     new InputStreamReader(
