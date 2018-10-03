@@ -1,0 +1,77 @@
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+index 3f2ce6f..abaab8d 100644
+--- a/.idea/workspace.xml
++++ b/.idea/workspace.xml
+@@ -1,9 +1,7 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="3b126c44-789c-4ccf-8895-1d17b1c5a969" name="Default Changelist" comment="">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-    </list>
++    <list default="true" id="3b126c44-789c-4ccf-8895-1d17b1c5a969" name="Default Changelist" comment="" />
+     <ignored path="$PROJECT_DIR$/out/" />
+     <ignored path="$PROJECT_DIR$/.gradle/" />
+     <ignored path="$PROJECT_DIR$/build/" />
+@@ -23,8 +21,8 @@
+       <file pinned="false" current-in-tab="true">
+         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="152">
+-              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
++            <state relative-caret-position="218">
++              <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+               <folding>
+                 <element signature="imports" expanded="true" />
+               </folding>
+@@ -101,7 +99,7 @@
+   <component name="PropertiesComponent">
+     <property name="WebServerToolWindowFactoryState" value="false" />
+     <property name="aspect.path.notification.shown" value="true" />
+-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538217833047" />
++    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538217834892" />
+     <property name="nodejs_interpreter_path.stuck_in_default_project" value="node" />
+     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
+@@ -178,7 +176,7 @@
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+       <updated>1538214712058</updated>
+-      <workItem from="1538214718153" duration="2573000" />
++      <workItem from="1538214718153" duration="2917000" />
+     </task>
+     <task id="LOCAL-00001" summary="refactr">
+       <created>1538217484175</created>
+@@ -191,7 +189,7 @@
+     <servers />
+   </component>
+   <component name="TimeTrackingManager">
+-    <option name="totallyTimeSpent" value="2573000" />
++    <option name="totallyTimeSpent" value="2917000" />
+   </component>
+   <component name="ToolWindowManager">
+     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+@@ -248,8 +246,8 @@
+     </entry>
+     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="152">
+-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
++        <state relative-caret-position="218">
++          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+           <folding>
+             <element signature="imports" expanded="true" />
+           </folding>
+diff --git a/src/main/java/Main.java b/src/main/java/Main.java
+index c5c27db..c522470 100644
+--- a/src/main/java/Main.java
++++ b/src/main/java/Main.java
+@@ -32,7 +32,7 @@ public class Main {
+         // 4) Залить diff одной ветки относительно master
+         // 5) Закоммитить этот diff в репо
+ 
+-        
++        // Какая-то дикая херня
+ 
+         System.out.println(execAsList("docker", "--help"));;
+     }
